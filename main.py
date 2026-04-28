@@ -13,7 +13,7 @@ def load_model(model_name):
     model_files = {
         "KNN": "k-nearest_neighbors_pipeline.joblib",
         "LogisticRegression": "logistic_regression_pipeline.joblib",
-        "RandomForest": "randomforest_classifier_pipeline.joblib",
+        #"RandomForest": "randomforest_classifier_pipeline.joblib",
         "XGBoost": "xgboost_classifier_pipeline.joblib"
     }
     return joblib.load(model_files[model_name])
